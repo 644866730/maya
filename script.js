@@ -894,7 +894,7 @@ function displayResults(results) {
     
     // 波符
     document.getElementById("wave-name").textContent = `${results.wave.sealName}`;
-    document.getElementById("wave-info").textContent = `第${results.wave.waveNum}波第${results.wave.waveDay}天`;
+    document.getElementById("wave-info").textContent = `第${results.wave.waveDay}天`;
     setImageWithFallback("wave-img", results.wave.seal);
     
     // 内在女神
